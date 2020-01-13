@@ -7,6 +7,7 @@
    (t (+ (% n 10) (digitsum (/ n 10))))))
 
 ;;; 4-5
+
 (defun digitalroot (n)
   "Sums the digits of N and the resulting sums until reaching a single digit."
   (cond
